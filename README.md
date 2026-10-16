@@ -40,6 +40,8 @@ Type `/ny-mode` before a task that needs rigor. With the plugin install, every s
 
 It loads the repository's own skill if one exists, finds the code through the feature map, picks a playbook, and has the `verifier` agent check the result before calling it done. The [guide](docs/guide/README.md) walks through each part.
 
+To have this happen while you sleep, run `/create-night-procedure`. It asks how many PRs you want each morning (2, 10, 100) and builds a nightly run that does the same steps unattended. See [Night runs](docs/guide/06-night-runs.md).
+
 ## Playbooks
 
 `ny-mode` copies the matching playbook's steps into its todo list.
@@ -69,6 +71,7 @@ It loads the repository's own skill if one exists, finds the code through the fe
 | [adversarial-review](skills/adversarial-review/SKILL.md) | You want reviewers on different models to try to break a diff. |
 | [repro-first](skills/repro-first/SKILL.md) | A bug to fix or file. Reproduce on the default branch first. |
 | [learn-from-reviews](skills/learn-from-reviews/SKILL.md) | Turn a repository's review history into a repo skill. |
+| [create-night-procedure](skills/create-night-procedure/SKILL.md) | You want PRs waiting when you wake up. Interviews you (repositories, how many PRs, what it may do alone), measures what each repository can absorb, and generates your own overnight run with a timer. |
 | [issue-finder](skills/issue-finder/SKILL.md) | Find open-source issues that are available, unfixed, and realistic. |
 | [unslop](skills/unslop/SKILL.md) | Remove AI writing patterns from prose. |
 

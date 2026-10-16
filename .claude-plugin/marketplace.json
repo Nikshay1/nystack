@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "Nikshay's agent skills: feature maps, verification, and repo skills learned from review history.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "nystack",
       "description": "Feature maps, independent verification, and per-repo skills learned from review history.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Nikshay"
       },

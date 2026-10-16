@@ -1,0 +1,33 @@
+{
+  "name": "<name>",
+  "github_login": "<login>",
+  "total_new_prs_per_night": 6,
+  "stop_starting_by": "06:00",
+  "max_hours": 6,
+  "require_ac_power": true,
+  "claude_model": "claude-opus-5-5",
+  "gate": {
+    "fix_rounds": 2,
+    "second_review": { "tool": "codex", "model": "gpt-6.1-sol", "effort": "high" }
+  },
+  "followups": {
+    "push_fixes": true
+  },
+  "repos": [
+    {
+      "repo": "<owner>/<repo>",
+      "checkout": "~/Projects/<repo>",
+      "fork_remote": "fork",
+      "upstream_remote": "main",
+      "default_branch": "main",
+      "authority": "draft",
+      "new_prs_per_night": 2,
+      "max_open_prs": 6,
+      "claim": "pr-is-claim",
+      "merge_method": "squash",
+      "fork_repo": "<login>/<repo>",
+      "issue_query": "is:open no:assignee label:\"good first issue\"",
+      "policy_note": "<what the repository's CONTRIBUTING says about AI-written PRs, from repo-capacity.sh>"
+    }
+  ]
+}

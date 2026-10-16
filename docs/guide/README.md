@@ -7,3 +7,4 @@ Read in order the first time. Each page is short.
 3. [Verification](03-verification.md): why the author cannot grade its own work, and what the verifier does.
 4. [Repo skills](04-repo-skills.md): turning a repository's review history into rules.
 5. [Make it yours](05-make-it-yours.md): writing and testing your own skills.
+6. [Night runs](06-night-runs.md): generating your own overnight run that leaves PRs for the morning.
