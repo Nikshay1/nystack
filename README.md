@@ -99,6 +99,8 @@ Per-repository rules learned from real review history, made with `learn-from-rev
 | --- | --- |
 | [repo-grafana-pathfinder-app](skills/repo-grafana-pathfinder-app/SKILL.md) | grafana/grafana-pathfinder-app, from the findings on 16 merged PRs. |
 | [repo-grafana](skills/repo-grafana/SKILL.md) | grafana/grafana: tracing the behavior graph, running the backend locally. |
+| [repo-kpt](skills/repo-kpt/SKILL.md) | kptdev/kpt, from the findings on 5 PRs. |
+| [repo-porch](skills/repo-porch/SKILL.md) | kptdev/porch, from the findings on 4 PRs. |
 
 ## Agents
 
