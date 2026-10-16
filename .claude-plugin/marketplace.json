@@ -1,0 +1,21 @@
+{
+  "name": "nystack",
+  "owner": {
+    "name": "Nikshay"
+  },
+  "metadata": {
+    "description": "Nikshay's agent skills: feature maps, verification, and repo skills learned from review history.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "nystack",
+      "description": "Feature maps, independent verification, and per-repo skills learned from review history.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Nikshay"
+      },
+      "source": "./"
+    }
+  ]
+}

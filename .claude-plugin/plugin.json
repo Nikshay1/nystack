@@ -1,0 +1,12 @@
+{
+  "name": "nystack",
+  "version": "0.1.0",
+  "description": "Agent skills for working in real codebases: feature maps so agents stop guessing where code lives, independent verification of agent-written changes, and per-repo skills learned from review history.",
+  "author": {
+    "name": "Nikshay"
+  },
+  "homepage": "https://github.com/Nikshay1/nystack",
+  "repository": "https://github.com/Nikshay1/nystack",
+  "license": "MIT",
+  "keywords": ["skills", "feature-map", "verification", "code-review", "open-source", "agents"]
+}

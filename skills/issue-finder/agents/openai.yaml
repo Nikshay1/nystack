@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue Finder"
+  short_description: "Find available GitHub issues worth contributing to"
+  default_prompt: "Use $issue-finder to find and verify an available open-source GitHub issue for me to work on."
